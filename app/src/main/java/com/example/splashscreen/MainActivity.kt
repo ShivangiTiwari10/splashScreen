@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
 
             val intent = Intent(this, SecondActivity::class.java)
             startActivity(intent)
+            finish()
         },3000)
 
         setContentView(binding.root)
